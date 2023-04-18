@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login - Sign Up Animated</title>
+    <!-- 👇 css code file 👇 -->
+    <link rel="stylesheet" href="./src/style/global.css" />
+    <script
+      src="https://kit.fontawesome.com/ba3be1a2e5.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,800;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="website icon"
+      href="https://cdn-icons-png.flaticon.com/512/2991/2991148.png"
+    />
+  </head>
+  <body>
+    <!-- Integrated Blank From Scratch Project -->
+    <div class="container" id="container">
+      <div class="form-container sign-up-container">
+        <form action="#">
+          <h1>Create an Account</h1>
+          <div class="social-container">
+            <a href="#" class="social">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="#" class="social">
+              <i class="fab fa-google-plus-g"></i>
+            </a>
+            <a href="#" class="social">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+          </div>
+
+          <span>Or Use Email For Registration</span>
+          <input type="text" placeholder="Name" />
+          <input type="email" placeholder="Email" />
+          <input type="password" placeholder="Password" />
+          <button>Sign Up</button>
+        </form>
+      </div>
+      <div class="form-container sign-in-container">
+        <form action="#">
+          <h1>Sign In</h1>
+          <div class="social-container">
+            <a href="#" class="social">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="#" class="social">
+              <i class="fab fa-google-plus-g"></i>
+            </a>
+            <a href="#" class="social">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+          </div>
+
+          <span>Or Use Your Account Here</span>
+          <input type="email" placeholder="your Email" />
+          <input type="password" placeholder="Password" />
+          <button>Sign In</button>
+        </form>
+      </div>
+      <div class="overlay-container">
+        <div class="overlay">
+          <div class="overlay-panel overlay-left">
+            <h1>Do you already have an account ?</h1>
+            <p>Sign In right now and using our services now!</p>
+            <a href="#">Forgot Password ?</a>
+            <button class="ghost" id="signIn">Sign In</button>
+          </div>
+          <div class="overlay-panel overlay-right">
+            <h1>Don't have an account yet ?</h1>
+            <p>Enter your personal details and join with us !</p>
+            <a href="#">Forgot Password ?</a>
+            <button class="ghost" id="signUp">Sign Up</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 👇 javascript code file 👇 -->
+    <script src="./src/js/index.js"></script>
+  </body>
+</html>
